@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.a{
+    background-color: rgb(199, 214, 228);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.navbar{
+    display: flex;
+   
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+
+.nav-list{
+width: 60%;
+display: flex;
+align-items: center;
+}
+
+.nav-list li{
+list-style: none;
+padding: 26px 30px;
+}
+
+.nav-list li a{
+text-decoration: none;
+color: white;
+}
+
+.rightnav{
+    text-align: right;
+    width: 50%;
+    margin: 10px 22px;
+    margin-left: 4rem;
+}
+
+
+
+
+
+
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(images.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf{
+    width: 30%;
+}
+
+.secondhalf img{
+    
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 82px;
+    width: 338px;
+}
+
+.text-big{
+    font-size: 42px;
+}
+
+.text-small{
+    font-size: 25px;
+
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+.btn-sm{
+    padding: 5px 10px;
+    vertical-align: middle;
+
+}
+
+
+.secright{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+   
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    margin: auto;
+    padding: 098px;
+}
+
+.thumbnail img{
+    width: 278px;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.teacher{
+    background-color: rgb(228, 230, 231);
+    height: 100vh;
+}
+
+.text-center{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.dlair-img{
+    justify-content: center;
+    text-align: center;
+}
+
+.gulraiz-img{
+    float: right;
+    justify-content: flex-end;
+    margin-top: 55px;
+    
+}
+
+.kazmi-wid{
+    WIDTH: 184PX;
+    justify-content: center;
+    margin: auto;
+}
+.gulraiz-wid{
+    width: 210px;
+    justify-content: center;
+    margin: auto;
+}
+
+.dlair-wid{
+    WIDTH: 184PX;
+    justify-content: center;
+    margin: 13px;
+}
+
+.sania-wid{
+    width: 210px;
+    justify-content: center;
+    margin: 13px;
+}
+
+.honourteacher{
+
+    font-size: 36px;
+    color: black;
+    text-align: right;
+    justify-content: center;
+}
+.honourteacher:hover{
+
+    font-size: 36px;
+    color:blue;
+    text-align: right;
+    justify-content: center;
+}
+
+.nam-1{
+    color: black;
+    font-size: 22px;
+}
+
+.dprt-size{
+    font-size: 22px;
+
+}
+
+.flex-grow{
+    font-size: 22px;
+}
+
+.mb-8 leading-relaxed{
+    color: black;
+}
